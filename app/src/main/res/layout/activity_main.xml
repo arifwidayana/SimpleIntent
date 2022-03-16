@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_input_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:hint="Masukkan Pesan Anda!"/>
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:inputType="number"
+        android:hint="Umur Anda Saat Ini!!"/>
+
+    <EditText
+        android:id="@+id/et_nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:hint="Masukkan NIM Anda!!"/>
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:text="Send"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_second_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:text="Second Screen Intent"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_put_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:text="Put Extra Intent"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_put_data_bundle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:text="Intent Bundle"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_serializable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:text="Intent Serializable"
+        android:textAllCaps="false"/>
+
+    <EditText
+        android:id="@+id/et_name_animal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:hint="Masukkan Nama Hewan!"/>
+
+    <EditText
+        android:id="@+id/et_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:hint="Apa Warna Hewan Tersebut!!"/>
+
+    <EditText
+        android:id="@+id/et_legs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:hint="Terdapat Berapa Kaki!!"/>
+
+    <EditText
+        android:id="@+id/et_envi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:hint="Termasuk Dalam Lingkungan Apa!!"/>
+
+    <Button
+        android:id="@+id/btn_parcelable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:text="Intent Parcelable"
+        android:textAllCaps="false"/>
+</LinearLayout>
